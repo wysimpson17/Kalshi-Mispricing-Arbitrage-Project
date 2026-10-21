@@ -1,0 +1,3 @@
+{
+  "python.defaultInterpreterPath": "${userHome}/.venvs/quant/Scripts/python.exe"
+}
