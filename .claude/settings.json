@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "deny": [
+      "Skill(api-and-interface-design)",
+      "Skill(browser-testing-with-devtools)",
+      "Skill(ci-cd-and-automation)",
+      "Skill(code-review-and-quality)",
+      "Skill(code-simplification)",
+      "Skill(constraint-driven-development)",
+      "Skill(context-engineering)",
+      "Skill(deprecation-and-migration)",
+      "Skill(documentation-and-adrs)",
+      "Skill(doubt-driven-development)",
+      "Skill(frontend-ui-engineering)",
+      "Skill(git-workflow-and-versioning)",
+      "Skill(idea-refine)",
+      "Skill(incremental-implementation)",
+      "Skill(interview-me)",
+      "Skill(observability-and-instrumentation)",
+      "Skill(performance-optimization)",
+      "Skill(security-and-hardening)",
+      "Skill(shipping-and-launch)",
+      "Skill(spec-driven-development)",
+      "Skill(using-agent-skills)"
+    ]
+  }
+}
