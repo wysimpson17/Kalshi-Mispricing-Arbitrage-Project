@@ -1,0 +1,8 @@
+#!/bin/sh
+# Refuse commits that add a private key, whatever the file is called (Kalshi saves keys as <name>.txt).
+# --text, tr and LC_ALL=C also catch UTF-16 files (what PowerShell's > writes), which git treats as binary.
+# The pattern is split in two so this file doesn't match itself.
+if git diff --cached --text --no-color -U0 | tr -d '\000' | LC_ALL=C grep -q '^+.*PRIVATE KEY''-----'; then
+  echo "Commit blocked: a staged change contains a private key. Keep keys outside this repo." >&2
+  exit 1
+fi

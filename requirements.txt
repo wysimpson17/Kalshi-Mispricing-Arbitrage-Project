@@ -1,4 +1,4 @@
-# Exact versions live in constraints.txt. After upgrading a package, refresh it: pip freeze > constraints.txt
+# Exact versions live in constraints.txt. README.md has the install and refresh commands.
 -c constraints.txt
 ipykernel
 numpy
